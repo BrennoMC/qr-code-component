@@ -4,6 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; 
+    font-family: 'Outfit', sans-serif; 
 }
 
 .container {
@@ -30,10 +31,14 @@ img {
     object-fit: contain;
 }
 
-.content{
+.content-title {
     text-align: center;
-    font-size: 11px;
-    font-family: 'Outfit', sans-serif;
+}
+
+.content-info {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
 }
 
 @media (max-width: 1440px) {
